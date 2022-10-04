@@ -1,0 +1,164 @@
+.header {
+    position: relative;
+    z-index: 1;
+    background-color: #000000;
+
+    @media screen and (max-width: 768px) {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        overflow: hidden;
+        
+    }
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    height: 80px;
+    background-color: $black;
+
+    padding: 0 220px 0 220px;
+
+    @media screen and (min-width: 1000px) and(max-width: 1599px) {
+        padding: 0 30px 0 30px;
+    }
+
+    @media screen and (min-width: 640px) and(max-width: 999px) {
+        height: 34px;
+        padding: 0 20.07px 0 20.07px;
+    }
+
+    @media screen and (max-width: 639px) {
+        height: 34px;
+        padding: 0 10.07px 0 10.07px;
+    }
+}
+
+/*! LOGO */
+
+.logo {
+    position: relative;
+
+    width: 80px;
+    height: 50px;
+
+    text-align: center;
+
+    @include logo_font;
+
+    color: $white;
+
+    border: 1px solid $white;
+    border-radius: 1px;
+
+    @media screen and (min-width: 1000px) {
+        h1 {
+            margin: 2.8px 3.75px 2.55px 3.75px;
+            font-size: $logo_fontSize;
+            font-weight: $font_regular;
+    
+        }        
+    }
+
+    @media screen and (min-width: 640px) and(max-width: 999px) {
+        width: 46.93px;
+        height: 29.03px;
+        color: #FFFFFF;
+        border: 0;
+        h1 {
+            margin: 1.29px 0 0 0;
+
+            font-family: $logo_font;
+            font-style: normal;
+            font-weight: $font_regular;
+            font-size: 12.2899px;
+            line-height: $logo_lineHeight; 
+        }
+    }
+
+    @media screen and (max-width: 639px) {
+        width: 46.93px;
+        height: 29.03px;
+        color: #FFFFFF;
+        border: 0;
+        h1 {
+            margin: 1.29px 0 0 0;
+
+            font-family: $logo_font;
+            font-style: normal;
+            font-weight: $font_regular;
+            font-size: 12.2899px;
+            line-height: $logo_lineHeight;
+        }
+    }
+
+
+    
+    .logo__img {
+        position: relative;
+    
+        left: 9px;
+        bottom: 27.5px;
+    
+        display: block;
+        background-image: url('../../assets/icons/bamboo.svg');
+        background-size: cover;
+        width: 12px;
+        height: 18.98px;
+
+        @media screen and (min-width: 640px) and(max-width: 999px) {
+            width: 7.54px;
+            height: 13.56px;
+            left: 3.6px;
+            bottom: 16.5px;
+        }
+        
+        @media screen and (max-width: 639px) {
+            width: 7.54px;
+            height: 13.56px;
+            left: 3.6px;
+            bottom: 16.5px;
+        }
+    
+    }
+
+
+}
+
+.header-designed {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin: 0 0 0 438px;
+    @include bodyBtn_font;
+
+    color: $white;
+    
+    .header-designed__link {
+        text-decoration: none;
+        color: $white;
+    }
+
+    .header-designed__link:hover {
+        color: $orange_hover;
+    }
+
+    @media screen and (min-width: 1000px) and(max-width: 1599px) {
+        margin: 0 0 0 259px;
+    }
+
+    @media screen and (min-width: 640px) and(max-width: 999px) {
+        @include visibility_off;
+    }
+
+    @media screen and (max-width: 639px) {
+        @include visibility_off;
+    }
+}
+

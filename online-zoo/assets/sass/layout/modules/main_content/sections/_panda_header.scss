@@ -1,0 +1,33 @@
+.panda-header-content {
+    width: 100%;
+    height: 386px;
+    background: url('../../assets/images/1600px/background/panda_bg.jpg');
+    background-size: auto;
+    @media screen and (min-height: 1000px) and (max-width: 1599px) {
+        max-width: 100%;
+        height: 390px;
+        background: url('../../assets/images/1000px/background/panda_bg.jpg');
+        background-size: cover;
+    }
+    @media screen and (min-height: 680px) and (max-width: 679px) {
+        max-width: 100%;
+        height: 369px;
+        background: url('../../assets/images/1000px/background/panda_bg.jpg');
+        background-size: contain;
+    }
+    @media screen and (min-height: 640px) and (max-width: 679px) {
+        max-width: 100%;
+        height: 369px;
+        background: url('../../assets/images/640px/background/panda_bg.jpg');
+        background-size: contain;
+        background-position-y: 34px;
+    }
+    @media screen and (min-height: 320px) and (max-width: 639px) {
+        width: 100%;
+        height: 221px;
+        background: url('../../assets/images/320px/background/panda_bg.jpg');
+        background-size: contain;
+        background-position-y: 34px;
+    }
+
+}

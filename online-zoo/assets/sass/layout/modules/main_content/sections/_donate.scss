@@ -1,0 +1,84 @@
+.donate-content {
+    background: $oragne_grad;
+}
+
+.donate-content__head {
+    overflow: hidden;
+}
+
+.donate-content__title {
+    text-align: center;
+    @include h3_font;
+    color: $white;
+    margin: 40px 0 0 0;
+
+    @media screen  and (min-width: 1000px) and (max-width: 1599px) {
+        text-align: left;
+        margin: 40px 192px 0 30px;
+    }
+    @media screen  and (min-width: 640px) and (max-width: 999px) {
+        text-align: left;
+        font-size: 24px;
+        line-height: 120%;
+        margin: 30px 20px 0 20px;
+    }
+    @media screen  and (min-width: 320px) and (max-width: 639px) {
+        text-align: left;
+        font-size: 24px;
+        line-height: 120%;
+        margin: 30px 10px 0 10px;
+    }
+}
+
+.donate-content__text {
+    // text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: $white;
+    margin: 10px 220px 0 220px;
+    p {
+        margin: 0;
+    }
+
+    @media screen  and (min-width: 1000px) and (max-width: 1599px) {
+        text-align: left;
+        margin: 30px 30px 0 30px;
+    }
+    @media screen  and (min-width: 640px) and (max-width: 999px) {
+        text-align: left;
+        font-size: 16px;
+        line-height: 140%;
+        margin: 20px 20px 0 20px;
+    }
+    @media screen  and (min-width: 320px) and (max-width: 639px) {
+        text-align: left;
+        font-size: 16px;
+        line-height: 138%;
+        margin: 20px 10px 0 10px;
+    }
+}
+
+.donate-content__subtitle {
+    text-align: left;
+    @include h3_font;
+    color: $orange_border;
+    margin: 46px 220px 0 220px;
+
+    @media screen  and (min-width: 1000px) and (max-width: 1599px) {
+        text-align: left;
+        margin: 45px 0 0 30px;
+    }
+    @media screen  and (min-width: 640px) and (max-width: 999px) {
+        text-align: left;
+        margin: 30px 279px 0 20px;
+    }
+    @media screen  and (min-width: 320px) and (max-width: 639px) {
+        text-align: left;
+        font-size: 24px;
+        line-height: 120%;
+        margin: 30px 83px 0 10px;
+    }
+}

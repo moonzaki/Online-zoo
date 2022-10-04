@@ -1,0 +1,83 @@
+/*! COLORS */
+$white: #FFFFFF;
+$black: #000000;
+$green: #4B9200;
+$orang: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+$orange_hover: #E47209;
+$orange_border: #FE9013;
+$yellow: #FFEE2E;
+$rad: #D31414;
+$clear_light: #F5F7F6;
+$forested_glass_white: rgba(253, 253, 255, 0.52);
+$gray: #767474;
+$light_dark_gray: #C4C4C4;
+$gray_smoky: #ABABAB;
+$light_gray: #F1F3F2;
+$black_blue: #333B41;
+$oragne_grad: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%,
+                                         #FEBDAB 100.95%, 
+                                         rgba(254, 210, 144, 0.7) 106.36%), 
+              linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%,
+                                         rgba(243, 169, 248, 0.66) 50.74%, 
+                                         #E0D8F0 80.49%, 
+                                         #EAF7FE 127.9%, 
+                                         #EAF7FE 149.54%), 
+              linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, 
+                                         rgba(243, 169, 248, 0.66) 50.74%, 
+                                         #E0D8F0 80.49%, 
+                                         #EAF7FE 127.9%,
+                                         #EAF7FE 149.54%);
+$pink_gradien: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%,
+                                          rgba(243, 169, 248, 0.66) 50.74%, 
+                                          #E0D8F0 80.49%, 
+                                          #EAF7FE 127.9%, 
+                                          #EAF7FE 149.54%), 
+               linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%,
+                                          rgba(243, 169, 248, 0.66) 50.74%, 
+                                          #E0D8F0 80.49%, 
+                                          #EAF7FE 127.9%, 
+                                          #EAF7FE 149.54%);
+
+/*! FONTS */
+$logo_font: Roboto, sans-serif;
+$logo_fontSize: 19.01px;
+$logo_lineHeight: 120%;
+
+$h1: Roboto, sans-serif;
+$h1_fontSize: 80px;
+$h1_lineHeight: 114%;
+
+$h2: Roboto, sans-serif;
+$h2_fontSize: 48px;
+$h2_lineHeight: 120%;
+
+$h3: Roboto, sans-serif;
+$h3_fontSize: 36px;
+$h3_lineHeight: 130%;
+
+$subtitle: Roboto, sans-serif;
+$subtitle_fontSize: 24px;
+$subtitle_lineHeight: 120%;
+
+$bodyBtn: Roboto, sans-serif;
+$bodyBtn_fontSize: 16px;
+$bodyBtn_lineHeight: 140%;
+
+$body: Roboto, sans-serif;
+$body_fontSize: 16px;
+$body_lineHeight: 140%;
+
+$smallParagraph: Roboto, sans-serif;
+$smallParagraph_fontSize: 15px;
+$smallParagraph_lineHeight: 120%;
+
+
+$font_bold: 700;
+$font_medium: 500;
+$font_regular: 400;
+$font_light: 300;
+
+/*! BUTTONS */
+
+$circle_btn: 25px;
+$sqr_btn: 5px;

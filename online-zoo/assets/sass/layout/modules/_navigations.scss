@@ -1,0 +1,114 @@
+/*! NAVIGATION */
+
+.navigation {
+    margin: 0 0 0 5.432%;
+
+    @media screen and (min-width: 1000px) and(max-width: 1440px) {
+        margin: 0 0 0 6.632%;
+    }
+
+    @media screen and (min-width: 640px) and(max-width: 999px) {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 639px) {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+
+    .navigation__burger {
+        @media screen and (min-width: 1000px) {
+            @include visibility_off;
+        }
+    
+        @media screen and (min-width: 640px) and(max-width: 999px) {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2px;
+            width: 18px;
+            height: 10px;
+            justify-content: flex-end;
+        }
+    
+        @media screen and (max-width: 639px) {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2px;
+            width: 18px;
+            height: 10px;
+        }
+
+        .navigation__burger-line {
+            display: block;
+            width: 18px;
+            height: 2px;
+
+            border-radius: 1px;
+            background-color: $white;
+        }
+    }
+
+    .navigation__list {
+        display: flex;
+        flex-direction: row;
+        gap: 58px;
+        padding: 0;
+    
+        @include bodyBtn_font;
+    
+        color: $white;
+        list-style: none;
+
+        @media screen and (min-width: 1000px) and(max-width: 1599px) {
+            gap: 48px;
+        }
+    
+        @media screen and (min-width: 640px) and(max-width: 999px) {
+            @include visibility_off;
+        }
+    
+        @media screen and (max-width: 639px) {
+            @include visibility_off;
+        }
+    
+        .navigation__item {
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+    
+            a:visited {
+                color: $white;
+                text-decoration: none;
+            }
+    
+            a:hover {
+                color: $orange_hover;
+            }
+    
+            .navigation__item-selected {
+                background: $orang;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-decoration: none;
+            }
+    
+            @media screen and (min-width: 640px) and(max-width: 999px) {
+    
+            }
+        
+            @media screen and (max-width: 639px) {
+    
+            }
+        }
+        
+        .navigation__item:hover {
+            color: $orange_hover;
+        }
+    }
+}

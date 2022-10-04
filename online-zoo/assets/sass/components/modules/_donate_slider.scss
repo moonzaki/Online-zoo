@@ -1,0 +1,166 @@
+.donate-slider {
+    max-width: 1160px;
+    margin: 60px auto 0 auto;
+
+    background: $forested_glass_white;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+
+    @media screen  and (min-width: 1220px) and (max-width: 1599px) {
+        text-align: left;
+        margin: 40px auto 0 auto;
+    }
+    @media screen  and (min-width: 1000px) and (max-width: 1219px) {
+        text-align: left;
+        margin: 40px 30px 0 30px;
+    }
+    @media screen  and (min-width: 640px) and (max-width: 999px) {
+        margin: 28px 20px 0 20px;
+    }
+    @media screen  and (min-width: 320px) and (max-width: 639px) {
+        margin: 30px 10px 0 10px;
+    }
+
+    .donate-slider__content {
+        .donate-slider__title {
+            padding: 40px 14px 0 0;
+            text-align: center;
+            margin: 0;
+            @include h2_font;
+            color: $orange_border;
+        
+            @media screen and (min-width: 1000px) and (max-width: 1599px) {
+                padding: 20px 14px 0 0;
+            }
+            @media screen and (min-width: 640px) and (max-width: 999px) {
+                padding: 30px 0 0 0;
+                font-size: 48px;
+                line-height: 120%;
+            }
+            @media screen and (min-width: 320px) and (max-width: 639px) {
+                padding: 20px 0 0 0;
+                font-size: 24px;
+                line-height: 120%;
+            }
+        }
+        
+        .donate-slider__text {
+            .donate-slider__subtext {
+                padding: 20px 0 0 93px;
+                text-align: left;
+                margin: 0;
+                @include subtitle_font;
+            
+                @media screen and (min-width: 1000px) and (max-width: 1599px) {
+                    // padding: 20px 48px 0 49px;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+                @media screen and (min-width: 640px) and (max-width: 999px) {
+                    padding: 20px 20px 0 20px;
+                    font-size: 24px;
+                    line-height: 120%;
+                    text-align: center;
+                }
+                @media screen and (min-width: 320px) and (max-width: 639px) {
+                    padding: 10px 0 0 0;
+                    font-size: 16px;
+                    line-height: 140%;
+                    text-align: center;
+                }
+            }
+        }
+
+        .donate-slider__animals {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            
+            .donate-slider__animals-mach {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+
+                .donate-slider__animals-day {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 72px;
+                    line-height: 80%;
+                }
+
+                .donate-slider__animals-text {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+
+                .donate-slider__animals-math-symbol {
+                    span {
+                        display: block;
+                        width: 14px;
+                        height: 14px;
+                        background: url('/assets/icons/x_icon.svg');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+            }
+
+            .donate-slider__animals-who {
+                display: block;
+                .donate-slider__animals-img {
+                    display: block;
+                    width: 284px;
+                    height: 246px;
+                    background: url('/assets/icons/animals/284px/panda_widget.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+        }
+
+        .donate-slider__price-bar {
+            .donate-slider__title-bar {
+
+            }
+
+            .donate-slider__bar-container {
+
+            }
+        }
+
+        .donate__click-zone {
+            .donate-slider__price-input {
+
+            }
+            
+            .donate-slider__checkbox {
+
+            }
+
+            .donate-slider__btn {
+
+            }
+
+        }
+
+        .donate-slider__ending-text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+
+            color: $black_blue;
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+}
+

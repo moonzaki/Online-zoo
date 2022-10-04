@@ -1,0 +1,129 @@
+.button {
+    width: 298px;
+    height: 54px;
+    padding: 0 0 0 4px;
+
+    @include bodyBtn_font;
+    text-transform: uppercase;
+
+    background: $orang;
+    border-style: none;
+
+    color: $white;
+}
+
+
+.watch__button {
+    border-radius: $circle_btn;
+}
+
+.pets-button {
+    display: block;
+    padding: 16px 5px 16px 5px;
+    border-radius: $circle_btn;
+    margin: 77px auto 100px auto;
+
+    @media screen and (min-width: 1000px) and (max-width: 1599px) {
+        margin: 77px auto 140px auto;
+    }
+    @media screen and (min-width: 640px) and (max-width: 999px) {
+        margin: 58px auto 100px auto;
+    }
+    @media screen and (min-width: 320px) and (max-width: 639px) {
+        margin: 18px auto 60px auto;
+    }
+}
+
+.feed-block__btn {
+    padding: 0 0 59px 0;
+    @media screen and (min-width: 1000px) and (max-width: 1599px) {
+        padding: 0 0 50px 0;
+    }
+    @media screen and (min-width: 640px) and (max-width: 999px) {
+        padding: 0 0 61px 0;
+    }
+    @media screen and (min-width: 320px) and (max-width: 639px) {
+        padding: 0 0 41px 0;
+    }
+    .feed-block__button {
+        display: block;
+        width: 298px;
+        border-radius: $circle_btn;
+        margin: 45px auto 0 auto;
+        @media screen and (min-width: 1000px) and (max-width: 1599px) {
+            margin: 55px auto 0 auto;
+        }
+        @media screen and (min-width: 640px) and (max-width: 999px) {
+            margin: 25px auto 0 auto;
+        }
+        @media screen and (min-width: 320px) and (max-width: 639px) {
+            margin: 35px auto 0 auto;
+        }
+    
+    }
+}
+
+.testimonials-block__button {
+    border-radius: $sqr_btn;
+
+    @include bodyBtn_font;
+
+    @media screen and (min-width: 640px) and (max-width: 999px) {
+        width: 240px;
+        display: block;
+        margin: auto;
+    }
+    @media screen and (min-width: 320px) and (max-width: 639px) {
+        width: 240px;
+        display: block;
+        margin: auto;
+    }
+}
+
+.donate-btn__button {
+    border-radius: $sqr_btn;
+    @include bodyBtn_font;
+}
+
+.subscribe__title {
+    @include subtitle_font;
+}
+.subscribe__input {
+    width: 224px;
+    height: 38px;
+    color: #BDBDBD;
+    border: 1px solid $orange_border;
+    background: $black;
+    border-radius: 2px;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.subscribe__input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 0 0 0 8px;
+}
+.subscribe__button {
+    width: 129px;
+    height: 42px;
+    background: $light_gray;
+    color: $green;
+    border-radius: $sqr_btn;
+    @include bodyBtn_font;
+    border: 1px solid $green;
+    text-transform: capitalize;
+    padding: 0 1px 0 0;
+}
+
+.donate-slider__button {
+    border-radius: $circle_btn;
+    @include bodyBtn_font;
+}

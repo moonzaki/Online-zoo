@@ -1,0 +1,94 @@
+/*! FONTS MIXIN */
+
+@mixin logo_font {
+    font-family: $logo_font;
+    font-size: $logo_fontSize;
+    line-height: $logo_lineHeight;
+}
+
+@mixin h1_font {
+    font-family: $h1;
+    font-weight: $font_bold;
+    font-size: $h1_fontSize;
+    line-height: $h1_lineHeight;
+}
+
+@mixin h2_font {
+    font-family: $h2;
+    font-weight: $font_regular;
+    font-size: $h2_fontSize;
+    line-height: $h2_lineHeight;
+}
+
+@mixin h3_font {
+    font-family: $h3;
+    font-weight: $font_regular;
+    font-size: $h3_fontSize;
+    line-height: $h3_lineHeight;
+}
+
+@mixin subtitle_font {
+    font-family: $subtitle;
+    font-weight: $font_regular;
+    font-size: $subtitle_fontSize;
+    line-height: $subtitle_lineHeight;
+}
+
+@mixin bodyBtn_font {
+    font-family: $bodyBtn;
+    font-weight: $font_medium;
+    font-size: $bodyBtn_fontSize;
+    line-height: $bodyBtn_lineHeight;
+}
+
+@mixin body_font {
+    font-family: $body;
+    font-weight: $font_regular;
+    font-size: $body_fontSize;
+    line-height: $body_lineHeight;
+}
+
+@mixin smallParagraph_font {
+    font-family: $smallParagraph;
+    font-weight: $font_light;
+    font-size: $smallParagraph_fontSize;
+    line-height: $smallParagraph_lineHeight;
+}
+
+@mixin light__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+/*! VISIBILITY MIXIN*/
+
+@mixin visibility_off {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+@mixin feed_item {
+    display: block;
+    width: 166px;
+    height: 166px;
+    border: 1px solid $orange_border;
+    border-radius: 5px;
+}
+
+@mixin testimonials_avatar {
+    display: block;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
